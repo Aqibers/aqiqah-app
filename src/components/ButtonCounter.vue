@@ -13,7 +13,7 @@ const colors: { [key: string]: string } = {
   <button
     :disabled="!active"
     :class="`w-10 h-10 inline-flex items-center justify-center px-3 py-1 text-base font-medium text-center ${
-      !active ? colors.white + ' cursor-not-allowed' : colors.primary
+      !active && color ? colors.white + ' cursor-not-allowed' : colors.primary
     }`"
   >
     {{ label }}
