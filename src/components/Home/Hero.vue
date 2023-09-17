@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import { RouterLink } from "vue-router";
+</script>
 <template>
   <section class="bg-white dark:bg-gray-900">
     <div
@@ -16,8 +19,8 @@
           sekadar berkualitas terbaik, tapi juga membawa berkah sejati yang akan
           mengisi momen istimewa keluarga Anda dengan kebahagiaan.
         </p>
-        <a
-          href="#"
+        <RouterLink
+          to="/aqiqah"
           class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
         >
           Lihat Paket Aqiqah
@@ -33,13 +36,13 @@
               clip-rule="evenodd"
             ></path>
           </svg>
-        </a>
-        <a
-          href="#"
+        </RouterLink>
+        <RouterLink
+          to="/aqiqah"
           class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
         >
           Lihat Penyedia Aqiqah
-        </a>
+        </RouterLink>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
         <img src="../../assets/images/sheep.png" alt="mockup" class="" />

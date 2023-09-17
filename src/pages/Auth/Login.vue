@@ -13,7 +13,9 @@ import { RouterLink } from "vue-router";
         />
       </div>
       <div class="w-1/2 bg-white h-screen px-24 py-20 space-y-8">
-        <img src="../../assets/images/logo.png" alt="logo" class="w-36" />
+        <RouterLink to="/"
+          ><img src="../../assets/images/logo.png" alt="logo" class="w-36"
+        /></RouterLink>
         <div class="ps-10">
           <p class="text-blue-500">Welcome back</p>
           <h3 class="font-semibold text-3xl text-gray-800">
